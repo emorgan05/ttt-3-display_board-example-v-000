@@ -5,6 +5,10 @@ def display_board
   horizontal = "-----------"
   row = "#{cell} #{vertical} #{cell} #{vertical} #{cell}"
   puts row
+  puts horizontal
+  puts row
+  puts horizontal
+  puts row
 end
 
 display_board
