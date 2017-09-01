@@ -3,7 +3,7 @@ def display_board
   cell = "  "
   vertical = "|"
   horizontal = "-----------"
-  row = "#{cell} #{vertical} #{cell} #{vertical} #{cell}"
+  row = "#{cell}#{vertical}#{cell}#{vertical}#{cell}"
   puts row
   puts horizontal
   puts row
