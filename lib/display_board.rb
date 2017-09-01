@@ -2,7 +2,7 @@
 def display_board
   cell = "   "
   vertical = "|"
-  horizontal = "-----------"
+  horizontal = "___________"
   row = "#{cell} #{vertical} #{cell} #{vertical} #{cell}"
   puts row
   puts horizontal
