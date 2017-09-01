@@ -6,3 +6,5 @@ def display_board
   row = "#{cell} #{vertical} #{cell} #{vertical} #{cell}"
   puts row
 end
+
+display_board
